@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"><!-- UTF-8 is an encoding type-->
+    <title>Contact Me</title>
+
+  </head>
+  <body>
+    <h1>My Contact details</h1>
+    <p>my fictional address</p>
+    <p>my number</p>
+    <p>myemail@gmail.com</p>
+
+    <hr>
+
+    <!-- <form class="" action="index.html" method="post"> This action will send you to the page that should open after you press submit -->
+
+    <form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain"><!--action will send you to the mailto:info@londonappbrewery.com in your main client installen in your computer page that should open after you press submit-->
+      <label for="">Your name</label>
+      <input type="text" name="yourName" ><!-- This is a textbox -->
+      <input type="color" name="" ><!--This will add a colorpicker to your website-->
+      <br>
+      <label for="">Do you want to recive emails?</label>
+      <!-- input is a self closing tag -->
+      <input type="checkbox" name="" ><!--This will create a checkbox-->
+
+      <br>
+
+      <label for="">password:</label>
+      <input type="password" name="" ><!--what ever you type here will be masked-->
+
+      <br>
+
+      <label for="">Your email?</label>
+      <input type="email" name="yourEmail" value=""><!--Takes input in the form of email-->
+
+      <br>
+
+      <label for="">your message</label>
+      <textarea name="yourMessage" rows="10" cols="80"></textarea><!-- rows - how tall the area should be , cols -how wide it should be-->
+
+      <br>
+
+      <input type="submit" name=""><!-- This is the submeit button-->
+    </form>
+  </body>
+</html>
